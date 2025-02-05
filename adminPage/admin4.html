@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>admin page4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        select {
+            
+            width: 100%;
+        }
+
+        h1 {
+            color: dimgray;
+        }
+
+        .text {
+            padding-top: 2%;
+            padding-left: 5%;
+        }
+        .text1{
+            padding-top: 4%;
+            padding-left: 2.5%;
+        }
+
+        sup {
+            color: red;
+        }
+
+        button {
+            
+            color: black;
+        }
+
+        .firstcol-row {
+            padding-top: 180%;
+        }
+
+        .basic {
+
+            width: 120%;
+            background-color: aliceblue;
+        }
+
+        .view {
+            text-align: center;
+            padding-top: 179%;
+        }
+
+        .col-8 {
+
+            align-items: center;
+
+        }       
+        .row-1 {
+            border: 1px solid lightgray;
+        }
+
+        .container-fluid {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        h5 {
+            padding-left: 3%;
+        }
+
+        .col-3 {
+            padding-top: 3%;
+        }
+        .form-check{
+            padding-top: 10%;
+        }
+
+        input {
+            width: 100%;
+        }    
+        .pad {
+            padding-top: 2%;
+            padding-left: 3%;
+        }
+
+        .pade {
+            padding-left: 3%;
+        }
+        .padinput{
+            padding-top: 1%;
+        }
+        .input-row{
+            padding-left: 3%;
+        }
+        .text-center{
+            margin-top: 1%;
+            margin-bottom: 1%;
+            
+            text-align: center;
+        }
+        .bt{
+            padding-left: 7%;
+        }
+        .color-row{
+            background-color: aliceblue;
+        }
+        .deco{
+            text-decoration: none;
+        }
+        .col-10{
+            border-collapse: collapse;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+        }
+        .white-row{
+            background-color: white;
+        }
+        .row-high{
+            align-items: center;
+            height: 13%;
+        }
+        textarea{
+            height: 70%;
+        }
+        .btn-end {
+            display: flex;
+            justify-content: end;
+            padding-top: 45%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="container-fluid">
+            <div class="row-1">
+                <h1>Admin</h1>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <button type="button" class="btn "><span style="color: dimgray;">Home</span></button><br>
+                    <button type="button" class="btn "><span style="color: dimgray;">공지사항</span></button><br>
+                    <div class="accordion accordion-flush">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    회원관리
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    서비스관리
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    커뮤니케이션
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefour" aria-expanded="false"
+                                    aria-controls="flush-collapsefour">
+                                    시스템관리
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"><button type="button" class="btn "><span
+                                            style="color: dimgray;">코드 관리</span></button><br>
+                                    <button type="button" class="btn  "><span style="color: dimgray;">코드 그룹
+                                            관리</span></button><br>
+                                    <button type="button" class="btn  "><span style="color: dimgray;">개인정보
+                                            관리</span></button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefive" aria-expanded="false"
+                                    aria-controls="flush-collapsefive">
+                                    Test
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+                        <div class="view">
+                            <hr>
+                            <span style="font-size: small;">Collapsed view</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col color-row">
+                    <div class="row color-row">
+                        <div class="row">
+                            <div class="col pad">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#" class="deco">Page 1</a></li>
+                                    <li class="breadcrumb-item"><a href="#" class="deco">Page 2</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Default</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col pade">
+                                <h1>Code</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-11">
+                                <div class="row row-high" style="border: 1px solid lightgray; border-radius: 5px;">
+                                    <h3>기본정보</h3>
+                                </div>
+                                <div class="row white-row" style="border: 1px solid lightgray; border-radius: 5px;" >
+                                    <div class="row">
+                                        <div class="col-3">
+                                        <label for="select1" class="text form-select-label">코드그룹<sup>*</sup></label>
+                                        <select class="form-select" id="select1"><option value="">선택 하세요</option>
+                                        </select>
+                                         </div>
+                                        <div class="col-3"> </div>
+                                        <div class="col-3"> </div>
+                                        <div class="col-3"> </div>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <label for="text1" class="text form-select-label">코드<sup>*</sup></label>
+                                            <input id="text1" type="text" class="form-control" placeholder="자동생성" disabled>
+                                        </div>
+                                        <div class="col-3">
+                                            <label for="text2" class="text form-select-label">코드 (ANOTHER)</label>
+                                            <input id="text2" type="text" class="form-control" placeholder="영대소문자,숫자">
+                                        </div>
+                                        <div class="col-3">
+                                            <label for="text3" class="text form-select-label">코드 이름<sup>*</sup></label>
+                                            <input id="text3" type="text" class="form-control" placeholder="한글,영대소문자,숫자" >
+                                        </div>
+                                        <div class="col-3">
+                                            <label for="text4" class="text form-select-label">코드 이름(영문)</label>
+                                            <input id="text4" type="text" class="form-control" placeholder="영대소문자,숫자" >
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <label for="select2" class="text form-select-label">사용 여부<sup>*</sup></label>
+                                        <select class="form-select" id="select2"><option value="">사용</option></select>
+                                        </div>
+                                        <div class="col-3">
+                                            <label for="text5" class="text form-control-label">순서</label>
+                                        <input type="text" class="form-control" id="text5">
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-3"></div>
+                                    </div>
+                                    <div class="row" style="height: 150px;">
+                                        <div class="col-6 ">
+                                            <label for="textarea1" class="form-control-label text1">설명</label>
+                                            <textarea class="form-control" id="textarea1"></textarea>
+                                        </div>
+                                        <div class="col-6"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <button class="btn btn-outline-dark">menu</button>
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-5"></div>
+                                        <div class="col-1">
+                                            <div class="btn-end"><button class="btn btn-primary">8</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                   
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                     
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

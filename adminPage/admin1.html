@@ -10,7 +10,7 @@
     <style>
         body {
             background-color:ghostwhite;
-            padding-top: 8%;
+            padding-top: 5%;
         }
 
         .row {
@@ -48,6 +48,10 @@
         .forgot{
             margin-left: 150px;
         }
+        .href{
+            text-decoration: none;
+        }
+       
     </style>
 
 
@@ -59,6 +63,7 @@
             <div class="row">
                 <div class="col-4"></div>
                 <div class="col">
+                    <img src="../image/logo.png" alt="">
                     <h2>Sign In</h2>
                 </div>
                 <div class="col-4"></div>
@@ -72,13 +77,13 @@
             </div>
             <div class="row">
                 <div class="col-4"></div>
-                <div class="col"><a href="https://www.google.com"><button type="button" class="btn btn-outline-dark">Sign in with google</button></a>
+                <div class="col"><a href="https://www.google.com" target="_blank"><button type="button" class="btn btn-outline-dark"><img src="../image/google.png" alt="">Sign in with google</button></a>
                 </div>
                 <div class="col-4"></div>
             </div>
             <div class="row">
                 <div class="col-4"></div>
-                <div class="col"><a href="https://www.facebook.com"><button type="button" class="btn btn-outline-dark">Sign in with
+                <div class="col"><a href="https://www.facebook.com" target="_blank"><button type="button" class="btn btn-outline-dark"><img src="../image/facebook.png" alt="">Sign in with
                             facebook</button></a></div>
                 <div class="col-4"></div>
             </div>
@@ -92,12 +97,12 @@
             </div>
             <div class="row">
                 <div class="col-4"></div>
-                <div class="col-4"><label for="email" class="form-label">ID</label><input class="form-control" type="text" placeholder="name@example.com" aria-label="default input example" id="email"></div>
+                <div class="col-4"><label for="email" class="form-label">ID</label><input  class="form-control people" type="text" placeholder="name@example.com" aria-label="default input example" id="email"></div>
                 <div class="col-4"></div>
             </div>
             <div class="row">
                 <div class="col-4"></div>
-                <div class="col-4"><label for="password" class="form-label">Password</label><input class="form-control" type="text" placeholder="Password" aria-label="default input example" id="password"></div>
+                <div class="col-4"><label for="password" class="form-label">Password</label><input class="form-control key" type="text" placeholder="Password" aria-label="default input example" id="password"></div>
                 <div class="col-4"></div>
             </div>
             <div class="row">
@@ -114,8 +119,9 @@
                     <div class="col"><button type="button" class="btn btn-primary">Sign In</button></div>
                     <div class="col-4"></div>
                 </div>
-                
-                <a href="https://www.google.com"><p style="padding-top: 20px;">Create an account</p></a>
+                <div>
+                <a href="https://www.google.com" class="href"><p style="padding-top: 20px;">Create an account</p></a>
+            </div>
             </div>
     </form>
 </body>

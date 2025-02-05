@@ -39,14 +39,14 @@
         }
 
         .basic {
-            
+            border: 1px solid lightgray;
             width: 120%;
             background-color: aliceblue;
         }
 
         .view {
             text-align: center;
-            padding-top: 185%;
+            padding-top: 179%;
         }
 
         .col-8 {
@@ -80,6 +80,10 @@
 
         input {
             width: 100%;
+        }
+        .sky{
+            background-color: aliceblue;
+            border: 1px solid lightgray;
         }
 
         
@@ -192,10 +196,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-1"></div>
-                <div class="col-8">
+                <div class="col sky"></div>
+                <div class="col-9">
                     <div class="row basic">
-                        <h5>기본정보</h5>
+                        <h4>기본정보</h4>
                     </div>
                     <div class="row">
                         <div class="col-3">
@@ -209,7 +213,7 @@
                     <div class="row">
                         <div class="col-3">
                             <label for="inputed" class="text form-control-label">코드<sup>*</sup></label>
-                            <input type="text" class="form-control" id="inputed" disabled>
+                            <input type="text" class="form-control" id="inputed" disabled placeholder="자동생성"> 
                         </div>
                         <div class="col-3">
                             <label for="inputs" class="form-control-label text"><span>코드</span></label>
@@ -330,7 +334,7 @@
 
 
                 </div>
-                <div class="col-1"></div>
+                <div class="col sky"></div>
             </div>
         </div>
     </form>
